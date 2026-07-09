@@ -76,7 +76,6 @@ header section div h2 {
 .popular-picks-mani-div {
   padding: 90px;
   background-color: #f1e7d8;
-  
 }
 .box-main {
   display: grid;
@@ -93,12 +92,12 @@ header section div h2 {
   border-radius: 20px;
   margin-top: 50px;
 }
-.pclr{
+.pclr {
   color: #e9b44c;
   font-weight: bold;
   margin-top: 20px;
 }
-.popular-box img{
+.popular-box img {
   margin-bottom: 15px;
 }
 /* What Makes Section */
@@ -116,7 +115,6 @@ header section div h2 {
 .popular-picks-mani-div2 {
   padding: 90px;
   background-color: #f8f4ef;
-  
 }
 .box-main2 {
   display: grid;
@@ -131,30 +129,56 @@ header section div h2 {
   border-radius: 20px;
   margin-top: 50px;
 }
-.pclr2{
+.pclr2 {
   color: #e9b44c;
   font-weight: bold;
   margin-top: 20px;
 }
-.popular-box2 img{
+.popular-box2 img {
   margin-bottom: 15px;
 }
 /* Table Section */
-.table-top-tex{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  
+.table-main-div{
+  background-color: #f8f4ef;
+  justify-items: center;
+  padding: 80px;
 }
-.table-top-tex p{
+.table-top-tex {
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.table-top-tex p {
   color: #e9b44c;
   margin-bottom: 15px;
 }
-.table-top-tex h2{
+.table-top-tex h2 {
   font-size: 30px;
 }
-.Table-body-div{
-  text-align: center;
+.Table-body-div {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-top: 25px;
+
+}
+.table-container {
+  display: grid;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  padding: 50px 50px;
+
+}
+tbody td {
+  border: 2px solid black;
+  /* border-collapse: collapse; */
+  padding: 15px 180px 15px 5px;
+
+}
+thead{
+  background-color: #2e2622;
+}
+thead th{
+  color: #e9b44c;
+  padding: 10px 10px;
+  text-align: left;
 }
