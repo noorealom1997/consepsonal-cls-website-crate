@@ -199,7 +199,7 @@ thead th {
   padding: 20px;
   border-radius: 10px;
 }
-.right-boxin{
+.right-boxin {
   position: absolute;
   display: grid;
   height: 50px;
@@ -211,4 +211,48 @@ thead th {
   text-align: center;
   align-items: center;
   border-radius: 50%;
+}
+/* Footer */
+.footer-main-div {
+  /* width: 100%; */
+  /* height: 400px; */
+  background-color: #2e2622;
+  padding: 30px 100px;
+}
+.fast-footer-div-main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-around; */
+  gap: 300px;
+}
+.footer-ul li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #CFC6BB;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footer-contanc{
+  list-style: none;
+  text-decoration: none;
+  color: #CFC6BB;
+  
+}
+.footer-contanc p{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.hrfoot{
+ 
+  margin-top: 30px;
+  border: none;             
+  height: 1px;             
+  background-color: white; 
+  /* margin: 50px 0;            */
+}
+.last-footer-mdiv{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
