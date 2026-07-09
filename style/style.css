@@ -74,7 +74,7 @@ header section div h2 {
   font-size: 30px;
 }
 .popular-picks-mani-div {
-  padding: 115px;
+  padding: 90px;
   background-color: #f1e7d8;
   
 }
@@ -100,4 +100,61 @@ header section div h2 {
 }
 .popular-box img{
   margin-bottom: 15px;
+}
+/* What Makes Section */
+.top-tex2 {
+  align-items: center;
+  text-align: center;
+}
+.top-tex2 p {
+  color: #e9b44c;
+  margin-bottom: 8px;
+}
+.top-tex2 h2 {
+  font-size: 30px;
+}
+.popular-picks-mani-div2 {
+  padding: 90px;
+  background-color: #f8f4ef;
+  
+}
+.box-main2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  /* justify-content: center; */
+}
+.popular-box2 {
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.pclr2{
+  color: #e9b44c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.popular-box2 img{
+  margin-bottom: 15px;
+}
+/* Table Section */
+.table-top-tex{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.table-top-tex p{
+  color: #e9b44c;
+  margin-bottom: 15px;
+}
+.table-top-tex h2{
+  font-size: 30px;
+}
+.Table-body-div{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
