@@ -7,7 +7,7 @@
   padding: 15px 30px;
   border-radius: 60px;
   font-weight: bold;
-  background-color: #E9B44C;
+  background-color: #e9b44c;
   border: none;
 }
 /* Nav Section */
@@ -41,7 +41,6 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
- 
 }
 header section div h2 {
   color: #fbf6ef;
@@ -50,10 +49,10 @@ header section div h2 {
   margin-bottom: 20px;
 }
 /* Our Story Section */
-.main-container{
-  background-color: #f5ece0;
+.main-container {
+  background-color: #f8f4ef;
 }
-.story-main-container{
+.story-main-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -61,6 +60,44 @@ header section div h2 {
   align-items: center;
   gap: 30px;
   padding: 80px 120px;
- 
-
+}
+/* Popular Picks Section */
+.top-tex {
+  align-items: center;
+  text-align: center;
+}
+.top-tex p {
+  color: #e9b44c;
+  margin-bottom: 8px;
+}
+.top-tex h2 {
+  font-size: 30px;
+}
+.popular-picks-mani-div {
+  padding: 115px;
+  background-color: #f1e7d8;
+  
+}
+.box-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  /* justify-content: center; */
+}
+.popular-box {
+  background-color: white;
+  /* height: 260px; */
+  padding: 50px 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.pclr{
+  color: #e9b44c;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.popular-box img{
+  margin-bottom: 15px;
 }
